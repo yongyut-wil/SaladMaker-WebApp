@@ -42,7 +42,7 @@ const IngredientCard: React.FC<IngredientCardProps> = ({
           <span className="text-xl font-bold text-black">{calories} <span className="text-yellow-500">Cal</span></span>
          
         </div>
-        <button className="flex justify-end text-yellow-500 hover:text-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-300 rounded-full pt-2">
+        <button className="flex justify-end text-yellow-500 hover:text-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-300 rounded-full py-2">
             <FiPlusCircle size={24} />
           </button>
       </div>
